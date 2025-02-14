@@ -5,9 +5,9 @@
     "main": "index.js",
     "scripts": {
         "start:tailwind": "cross-env NODE_ENV=development tailwindcss --postcss -i tailwind.css -o tailwind-runtime.css -w",
-        "build:tailwind": "cross-env NODE_ENV=production tailwindcss --postcss -i tailwind.css -o tailwind-build.css --minify",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+        "build:tailwind": "cross-env NODE_ENV=production tailwindcss --postcss -i tailwind.css -o dist/tailwind-build.css --minify",
+        "build": "npm run build:tailwind && mkdir -p dist && cp index.html index.js dist/ && cp -r assets dist/assets && cp -r css dist/css"
+    }
     "keywords": [
         "landing",
         "pages",

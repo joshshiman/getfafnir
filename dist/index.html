@@ -7,7 +7,7 @@
         <meta name="description" content="Monitor and Control Indirect Spend" />
         <link
             rel="shortcut icon"
-            href="./assets/logo/fafnir-logo.png"
+            href="assets/logo/fafnir-logo.png"
             type="image/x-icon"
         />
         <link rel="stylesheet" href="tailwind-build.css">
@@ -34,13 +34,13 @@
     </head>
     <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#ffffff]">
         <header
-            class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-white tw-px-[10%] tw-text-black max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around"
+            class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-[#ffdf1e] tw-px-[10%] tw-text-black max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around"
         >
-            <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
+            <a class="tw-h-[52px] tw-w-[52px] tw-p-[4px]" href="">
                 <img
-                    src="./assets/logo/fafnir-logo.png"
+                    src="assets/logo/fafnir-logo.png"
                     alt="logo"
-                    class="tw-object tw-h-full tw-w-full"
+                    class="tw-h-full tw-w-full tw-object-contain" 
                 />
             </a>
             <div
@@ -50,30 +50,18 @@
                 <div
                     class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
                 >
-                    <a class="header-links" href=""> About us </a>
-                    <a class="header-links" href=""> Pricing </a>
-                    <a class="header-links" href=""> Blogs </a>
-                    <a class="header-links" href="" rel="noreferrer">
-                        Contact us
-                    </a>
                 </div>
                 <div
                     class="tw-flex tw-place-items-center tw-gap-[20px] tw-text-lg max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
                 >
-                    <a
-                        href=""
-                        aria-label="login"
-                        class="tw-transition-colors tw-duration-[0.3s]"
-                    >
-                        Login
-                    </a>
+
 
                     <a
-                        href=""
+                        href="mailto:hello@getfafnir.com"
                         aria-label="signup"
                         class="tw-rounded-sm tw-border-2 tw-border-[#1c1c1c] tw-p-1 tw-px-2 tw-transition-colors tw-duration-[0.3s] hover:tw-bg-black hover:tw-text-white"
                     >
-                        Signup
+                        Contact Us
                     </a>
                 </div>
             </div>
@@ -86,116 +74,101 @@
         </header>
 
         <section
-            class="tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-lg:tw-p-4 max-md:tw-mt-[50px]"
+            class="tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden tw-bg-[#ffdf1e] max-lg:tw-p-4 max-md:tw-mt-[50px]"
         >
             <div
                 class="tw-flex tw-h-full tw-min-h-[100vh] tw-w-full tw-place-content-center tw-gap-6 tw-p-[5%] max-xl:tw-flex-col max-xl:tw-place-items-center"
             >
+                <!-- Content remains the same -->
                 <div
                     class="tw-flex tw-min-w-[450px] tw-max-w-[800px] tw-flex-col tw-place-content-center max-xl:tw-min-w-[250px]"
                 >
                     <div
-                        class="tw-flex tw-flex-wrap tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[60px] max-lg:tw-text-4xl max-md:tw-leading-snug"
+                        class="tw-flex tw-flex-wrap tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[60px] tw-text-white max-lg:tw-text-4xl max-md:tw-leading-snug" 
                     >
-                        Unlock Hidden Costs with Spend Analysis
+                        Unlock Hidden Cost Savings
                     </div>
                     <div
-                        class="reveal tw-mt-10 tw-p-2 tw-text-justify max-lg:tw-max-w-full"
+                        class="reveal tw-mt-10 tw-p-2 tw-text-justify tw-text-white max-lg:tw-max-w-full" 
                     >
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Error adipisci corrupti accusamus reiciendis
-                        similique assumenda nostrum fuga dicta vitae ipsum.
+                        Fafnir is a spend analysis platform that helps businesses control their indirect spend.
                     </div>
-
-                    <h2 class="reveal tw-mt-6 tw-text-lg">Get started</h2>
-                    <div
-                        class="reveal tw-mt-4 tw-flex tw-h-[50px] tw-w-[350px] tw-max-w-[350px] tw-place-items-center tw-gap-2 tw-overflow-hidden"
-                    >
-                        <input
-                            type="email"
-                            class="input tw-h-full tw-w-full tw-rounded-md tw-border-[2px] tw-border-solid tw-border-[#bfbfbf] tw-bg-transparent tw-p-2 tw-px-3 tw-outline-none tw-transition-colors tw-duration-[0.3s]"
-                            placeholder="joe@example.com"
-                        />
-                        <a
-                            class="btn tw-h-full tw-transition-colors tw-duration-[0.3s]"
-                            href=""
-                        >
-                            Signup
-                        </a>
-                    </div>
-
+        
+                    <!-- Social links container -->
                     <div class="reveal tw-mt-6 tw-flex tw-gap-4 tw-text-2xl">
-                        <a href="" aria-label="LinkedIn">
+                        <!-- Social icons changed to white -->
+                        <a href="" aria-label="LinkedIn" class="tw-text-white">
                             <i class="bi bi-linkedin"></i>
                         </a>
                         <a
                             href="https://twitter.com/@pauls_freeman"
                             aria-label="Twitter"
+                            class="tw-text-white"
                         >
                             <i class="bi bi-twitter"></i>
                         </a>
                         <a
                             href="https://instagram.com/"
-                            class="tw-h-[40px] tw-w-[40px]"
-                            aria-label="Tripadvisor"
+                            class="tw-h-[40px] tw-w-[40px] tw-text-white"
+                            aria-label="Instagram"
                         >
                             <i class="bi bi-instagram"></i>
                         </a>
                     </div>
                 </div>
-
-                <div
-                    class="tw-flex tw-max-h-[120vh] tw-w-full tw-max-w-[850px] tw-place-content-center tw-place-items-center tw-overflow-hidden max-md:tw-max-w-[350px]"
-                >
-                    <div
-                        class="tw-relative tw-flex tw-w-fit tw-place-content-center tw-place-items-center"
-                    >
-                        <div
-                            class="tw-flex tw-max-h-[550px] tw-min-h-[450px] tw-min-w-[350px] tw-max-w-[650px] tw-overflow-hidden tw-rounded-2xl tw-shadow-xl max-lg:tw-h-[320px] max-lg:tw-w-[320px]"
-                        >
-                            <img
-                                src="./assets/images/home/dashboard.png"
-                                alt="dashboard"
-                                class="tw-h-full tw-w-full tw-object-cover max-lg:tw-object-contain"
-                            />
-                        </div>
+        
+                <!-- Iframe container remains the same -->
+                <div class="tw-flex tw-w-full tw-place-content-center tw-place-items-center tw-overflow-hidden max-md:tw-max-w-[500px]">
+                    <div class="tw-relative tw-w-full" style="padding-top: 60%">
+                        <iframe 
+                            src="https://fafnir.app/" 
+                            class="tw-absolute tw-top-0 tw-left-0 tw-h-full tw-w-full tw-rounded-2xl tw-shadow-xl"
+                            frameborder="0"
+                            allowfullscreen
+                            loading="lazy"
+                        ></iframe>
                     </div>
                 </div>
             </div>
         </section>
-        <section
-            class="tw-relative tw-flex tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
-        >
-            <h2 class="tw-text-3xl tw-text-[#5d5d5d] max-lg:tw-text-2xl">
+        <section class="tw-relative tw-w-full tw-overflow-hidden tw-py-16">
+            <h2 class="tw-text-3xl tw-text-[#5d5d5d] tw-text-center tw-mb-8">
                 Trusted by industry leaders
             </h2>
-
-            <div
-                class="tw-mt-8 tw-flex tw-w-full tw-place-content-center tw-gap-10"
-            >
-                <div class="tw-h-[50px] tw-w-[150px]">
-                    <img
-                        src="./assets/images/brand-logos/google.svg"
-                        alt="Google"
-                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale"
-                        srcset=""
-                    />
-                </div>
-                <div class="tw-h-[50px] tw-w-[150px]">
-                    <img
-                        src="./assets/images/brand-logos/microsoft.svg"
-                        alt="Microsoft"
-                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale"
-                        srcset=""
-                    />
-                </div>
-                <div class="tw-h-[50px] tw-w-[150px]">
-                    <img
-                        src="./assets/images/brand-logos/adobe.svg"
-                        alt="Adobe"
-                        class="tw-h-full tw-w-full tw-object-contain tw-grayscale"
-                        srcset=""
-                    />
+            
+            <div class="logos-container">
+                <div class="logos-track" id="logosTrack">
+                    <!-- Original Logos -->
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/airbase.png" alt="Google" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/expensify.png" alt="Microsoft" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/float.png" alt="Adobe" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/ramp.png" alt="Google" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/response.png" alt="Microsoft" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/sapconcur.png" alt="Adobe" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    <div class="logo-item tw-h-[50px] tw-w-[150px]">
+                        <img src="./assets/images/brand-logos/tipalti.png" alt="Adobe" 
+                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale">
+                    </div>
+                    
+                    <!-- Cloned Logos (duplicated via JavaScript below) -->
                 </div>
             </div>
         </section>

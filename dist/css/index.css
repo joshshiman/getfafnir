@@ -2,8 +2,8 @@
 
 :root{
 
-    --btn-color: #fdfdfd;/* button color*/
-    --btn-bg: #101010;/* button bg color*/
+    --btn-color: #101010;/* button color*/
+    --btn-bg: #fdfdfd;/* button bg color*/
 
     --primary-text-color: #1d1b1b;
 }
@@ -15,7 +15,7 @@ html {
 }
 
 header{
-    background-color: #fff;
+    background-color: #ffdf1e;
     color: #000;
 }
 
@@ -46,7 +46,7 @@ header > .collapsible-header{
 
 
 .header-links:hover {
-    color: #1e85ec;
+    color: #ffffff;
 }
 
 
@@ -192,4 +192,37 @@ header > .collapsible-header{
         color: black;
     }
     
+    .logos-container {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        max-width: 100vw;
+    }
+    
+    .logos-track {
+        display: flex;
+        gap: 40px;
+        animation: scroll 20s linear infinite;
+        width: max-content;
+        flex-direction: row; /* Explicitly set direction */
+        align-items: center; /* Vertical centering */
+    }
+
+    @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+
+    .logo-item {
+        flex-shrink: 0;
+        transition: filter 0.3s;
+        height: 50px; /* Fixed height */
+        width: 150px; /* Fixed width */
+    }
+
+    .logo-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
